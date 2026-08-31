@@ -1,0 +1,28 @@
+<svg width="560" height="330" viewBox="0 0 560 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="cardbg" x1="0" y1="0" x2="560" y2="330">
+    <stop stop-color="#0B1020"/><stop offset="1" stop-color="#10182A"/>
+  </linearGradient>
+  <linearGradient id="acc" x1="40" y1="40" x2="520" y2="290">
+    <stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/>
+  </linearGradient>
+  <radialGradient id="g" cx="0" cy="0" r="1" gradientTransform="translate(470 45) rotate(140) scale(220 170)">
+    <stop stop-color="#8B5CF6" stop-opacity=".32"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="1" y="1" width="558" height="328" rx="24" fill="url(#cardbg)" stroke="#25304A" stroke-width="2"/>
+<rect x="1" y="1" width="558" height="328" rx="24" fill="url(#g)"/>
+<rect x="36" y="38" width="48" height="48" rx="14" fill="#111827" stroke="url(#acc)" stroke-width="2"/>
+<text x="60" y="70" text-anchor="middle" fill="#E2E8F0" font-size="24" font-family="Segoe UI Symbol,Arial">◉</text>
+<text x="100" y="57" fill="#22D3EE" font-size="13" font-weight="700" letter-spacing="1.5" font-family="Inter,Segoe UI,Arial,sans-serif">LLM · RAG · AUDIO AI</text>
+<text x="100" y="84" fill="#F8FAFC" font-size="24" font-weight="800" font-family="Inter,Segoe UI,Arial,sans-serif">Intelligent Meeting Assistant</text>
+<line x1="40" y1="112" x2="520" y2="112" stroke="#25304A"/>
+<foreignObject x="40" y="132" width="480" height="102">
+  <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,Segoe UI,Arial,sans-serif;color:#AFC0D6;font-size:16px;line-height:1.55;">
+    End-to-end meeting intelligence: speech-to-text, speaker diarization, report generation, semantic retrieval and Q&amp;A over meeting content.
+  </div>
+</foreignObject>
+<rect x="50" y="260" width="73" height="32" rx="16" fill="#111827" stroke="#334155"/><text x="62" y="281" fill="#CBD5E1" font-size="13" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Django</text><rect x="132" y="260" width="49" height="32" rx="16" fill="#111827" stroke="#334155"/><text x="144" y="281" fill="#CBD5E1" font-size="13" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">DRF</text><rect x="190" y="260" width="106" height="32" rx="16" fill="#111827" stroke="#334155"/><text x="202" y="281" fill="#CBD5E1" font-size="13" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">PostgreSQL</text><rect x="305" y="260" width="73" height="32" rx="16" fill="#111827" stroke="#334155"/><text x="317" y="281" fill="#CBD5E1" font-size="13" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Celery</text><rect x="387" y="260" width="65" height="32" rx="16" fill="#111827" stroke="#334155"/><text x="399" y="281" fill="#CBD5E1" font-size="13" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Redis</text><rect x="461" y="260" width="73" height="32" rx="16" fill="#111827" stroke="#334155"/><text x="473" y="281" fill="#CBD5E1" font-size="13" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Qdrant</text>
+<circle cx="508" cy="286" r="4" fill="#22D3EE"/>
+<circle cx="492" cy="286" r="4" fill="#8B5CF6" opacity=".75"/>
+</svg>

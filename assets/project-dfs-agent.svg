@@ -1,0 +1,65 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0A1020"/>
+    <stop offset="1" stop-color="#0D1424"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="62" y1="40" x2="1140" y2="260" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#22D3EE"/>
+    <stop offset=".52" stop-color="#8B5CF6"/>
+    <stop offset="1" stop-color="#F472B6"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1010 70) rotate(145) scale(315 225)">
+    <stop stop-color="#8B5CF6" stop-opacity=".19"/>
+    <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="blur" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+
+<rect x="1" y="1" width="1198" height="298" rx="24" fill="url(#bg)" stroke="#25304A" stroke-width="2"/>
+<rect x="1" y="1" width="1198" height="298" rx="24" fill="url(#glow)"/>
+
+<rect x="54" y="42" width="108" height="30" rx="15" fill="#0F172A" stroke="#334155"/>
+<circle cx="74" cy="57" r="4" fill="#34D399"/>
+<text x="86" y="62" fill="#AFC0D6" font-size="12" font-weight="700" letter-spacing="1.1" font-family="Inter,Segoe UI,Arial,sans-serif">PUBLIC BUILD</text>
+
+<text x="54" y="122" fill="#F8FAFC" font-size="38" font-weight="800" font-family="Inter,Segoe UI,Arial,sans-serif">DFS Agent</text>
+<text x="54" y="158" fill="#AFC0D6" font-size="17" font-weight="500" font-family="Inter,Segoe UI,Arial,sans-serif">A small depth-first search agent with text, random,</text>
+<text x="54" y="183" fill="#AFC0D6" font-size="17" font-weight="500" font-family="Inter,Segoe UI,Arial,sans-serif">and Pygame visualization modes.</text>
+
+<g font-family="JetBrains Mono,Consolas,monospace" font-size="12" font-weight="600">
+  <rect x="54" y="218" width="76" height="30" rx="15" fill="#10182A" stroke="#334155"/><text x="73" y="238" fill="#CBD5E1">Python</text>
+  <rect x="140" y="218" width="62" height="30" rx="15" fill="#10182A" stroke="#334155"/><text x="159" y="238" fill="#CBD5E1">DFS</text>
+  <rect x="212" y="218" width="83" height="30" rx="15" fill="#10182A" stroke="#334155"/><text x="229" y="238" fill="#CBD5E1">Pygame</text>
+</g>
+
+<!-- animated search grid -->
+<g transform="translate(716 42)">
+  <rect width="418" height="216" rx="18" fill="#090E19" stroke="#243047"/>
+  <g stroke="#1F2A3E" stroke-width="1">
+    <path d="M46 0V216M92 0V216M138 0V216M184 0V216M230 0V216M276 0V216M322 0V216M368 0V216"/>
+    <path d="M0 43H418M0 86H418M0 129H418M0 172H418"/>
+  </g>
+  <g fill="#182236">
+    <rect x="47" y="1" width="44" height="41" rx="5"/><rect x="139" y="44" width="44" height="41" rx="5"/>
+    <rect x="231" y="1" width="44" height="41" rx="5"/><rect x="323" y="44" width="44" height="41" rx="5"/>
+    <rect x="93" y="130" width="44" height="41" rx="5"/><rect x="185" y="87" width="44" height="41" rx="5"/>
+    <rect x="277" y="130" width="44" height="41" rx="5"/><rect x="369" y="87" width="44" height="41" rx="5"/>
+  </g>
+
+  <path d="M23 194V151H69V108H115V65H161V108H253V65H299V108H345V151H391V194" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 9" opacity=".72">
+    <animate attributeName="stroke-dashoffset" values="0;-68" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <circle cx="23" cy="194" r="8" fill="#10182A" stroke="#22D3EE" stroke-width="2"/>
+  <circle cx="391" cy="194" r="8" fill="#10182A" stroke="#F472B6" stroke-width="2"/>
+  <text x="12" y="213" fill="#64748B" font-size="9" font-family="JetBrains Mono,Consolas,monospace">START</text>
+  <text x="378" y="213" fill="#64748B" font-size="9" font-family="JetBrains Mono,Consolas,monospace">GOAL</text>
+
+  <circle r="6" fill="#22D3EE" filter="url(#blur)">
+    <animateMotion dur="6.2s" repeatCount="indefinite" path="M23 194V151H69V108H115V65H161V108H253V65H299V108H345V151H391V194"/>
+  </circle>
+</g>
+
+<path d="M55 272H1145" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" opacity=".45"/>
+</svg>

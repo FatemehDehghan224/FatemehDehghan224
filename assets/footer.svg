@@ -1,0 +1,19 @@
+<svg width="1200" height="116" viewBox="0 0 1200 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="a" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#8B5CF6"/>
+    <stop offset=".5" stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#F472B6"/>
+  </linearGradient>
+  <filter id="g" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<path d="M72 58H382L405 36L430 80L458 48L483 66H728L750 42L776 74L801 54H1128" stroke="#25304A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M72 58H382L405 36L430 80L458 48L483 66H728L750 42L776 74L801 54H1128" stroke="url(#a)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="80 976" opacity=".95">
+  <animate attributeName="stroke-dashoffset" values="0;-1056" dur="5.8s" repeatCount="indefinite"/>
+</path>
+<circle r="5" fill="#22D3EE" filter="url(#g)">
+  <animateMotion dur="5.8s" repeatCount="indefinite" path="M72 58H382L405 36L430 80L458 48L483 66H728L750 42L776 74L801 54H1128"/>
+</circle>
+<rect x="474" y="31" width="252" height="54" rx="27" fill="#0A0F1D" stroke="#2A354A"/>
+<text x="600" y="64" text-anchor="middle" fill="#D9E2EE" font-size="15" font-weight="650" letter-spacing="1.15" font-family="JetBrains Mono,Consolas,monospace">BUILD SOMETHING USEFUL.</text>
+</svg>

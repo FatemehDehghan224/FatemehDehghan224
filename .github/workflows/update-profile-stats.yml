@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: Checkout profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Generate local GitHub activity SVGs
         env:

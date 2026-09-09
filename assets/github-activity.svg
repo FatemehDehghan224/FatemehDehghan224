@@ -1,0 +1,16 @@
+<svg width="1200" height="270" viewBox="0 0 1200 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="accent" x1="58" y1="0" x2="1142" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6"/><stop offset=".52" stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(960 90) rotate(165) scale(390 170)"><stop stop-color="#22D3EE" stop-opacity=".10"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect x="1" y="1" width="1198" height="268" rx="24" fill="#0A0F1D" stroke="#25304A" stroke-width="2"/><rect x="1" y="1" width="1198" height="268" rx="24" fill="url(#glow)"/>
+<text x="58" y="44" fill="#78879D" font-size="12" font-weight="700" letter-spacing="2.05" font-family="Inter,Segoe UI,Arial,sans-serif">CONTRIBUTION PULSE · LAST 12 MONTHS</text>
+<text x="58" y="112" fill="#F8FAFC" font-size="42" font-weight="800" font-family="Inter,Segoe UI,Arial,sans-serif">64</text><text x="60" y="136" fill="#78879D" font-size="11" letter-spacing="1.1" font-family="JetBrains Mono,Consolas,monospace">CONTRIBUTIONS</text>
+<g opacity=".78">
+  <path d="M292 102H1136M292 118H1136M292 134H1136M292 150H1136M292 166H1136M292 182H1136M292 198H1136" stroke="#172033" stroke-width="11" stroke-dasharray="11 5"/>
+</g>
+<g transform="translate(430 124)"><rect width="560" height="72" rx="18" fill="#0D1427" stroke="#26334E"/><circle cx="33" cy="36" r="6" fill="#22D3EE"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="55" y="31" fill="#D7E1EF" font-size="15" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Live contribution data is ready to sync.</text><text x="55" y="51" fill="#718198" font-size="11.5" font-family="JetBrains Mono,Consolas,monospace">first push → GitHub Action → local SVG snapshot</text></g>
+<circle r="4" fill="#22D3EE" filter="url(#soft)"><animateMotion dur="7s" repeatCount="indefinite" path="M292 223H1136"/><animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite"/></circle>
+<rect x="58" y="258" width="1084" height="2" rx="1" fill="url(#accent)" opacity=".42"/>
+</svg>
